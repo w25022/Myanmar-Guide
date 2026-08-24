@@ -13,7 +13,7 @@ const adventuresData = [
     location: { en: "Kachin State (Far Northern Himalayas)", ja: "カチン州（ヒマラヤ東端・最北部）", my: "ကချင်ပြည်နယ် (မြောက်ဖျားဟိမဝန္တာ)" },
     difficulty: { en: "Extreme / Expert Mountaineering", ja: "最上級・エキスパート向け", my: "အလွန်ခက်ခဲ / ကျွမ်းကျင်တောင်တက်သမားများ" },
     badge: "Featured Expedition",
-    image: "images/locations/Hkakabo Razi.jpg",
+    image: "public/images/locations/Hkakabo Razi.jpg",
     description: {
       en: "The highest mountain in Southeast Asia (5,881 meters / 19,295 ft), enveloped in permafrost, glaciated peaks, and dense subtropical rainforests.",
       ja: "標高5,881メートルを誇る東南アジア最高峰。万年雪、氷河、そして手つかずの原生林が生息する地球最後の秘境の一つ。",
@@ -58,7 +58,7 @@ const adventuresData = [
     category: "Highland Trekking",
     location: { en: "Kachin State (Northern Wilderness)", ja: "カチン州プタオ", my: "ကချင်ပြည်နယ် ပူတာအို" },
     difficulty: { en: "Moderate to Challenging", ja: "中級〜上級", my: "အလယ်အလတ် မှ အသင့်အတင့် ခက်ခဲ" },
-    image: "images/locations/putao.jpg",
+    image: "public/images/locations/putao.jpg",
     description: {
       en: "Scenic highland walks through bamboo forests, pristine mountain streams, and remote Lisu and Rawang villages nestled in the snow-capped foothills.",
       ja: "遠くに雪山を望む爽快な高原で、竹林や清流、リス族・ラワン族の村々を訪ねるトレッキングコース。",
@@ -103,7 +103,7 @@ const adventuresData = [
     category: "Mountain Hiking",
     location: { en: "Chin State", ja: "チン州（西部高地）", my: "ချင်းပြည်နယ်" },
     difficulty: { en: "Moderate", ja: "中級（歩きやすい登山道）", my: "အလယ်အလတ် (လမ်းလျှောက်တောင်တက်)" },
-    image: "images/locations/Mount Victoria (Nat Ma Taung).jpg",
+    image: "public/images/locations/Mount Victoria (Nat Ma Taung).jpg",
     description: {
       en: "Ascend Chin State's highest summit (3,053m) through misty pine and rhododendron forests, home to unique indigenous cultures.",
       ja: "標高3,053メートルのチン州最高峰。紅紫色のシャクナゲの花が咲き誇る山道を登り、独自のタトゥー文化を持つチン族の村を訪問。",
@@ -148,7 +148,7 @@ const adventuresData = [
     category: "Scenic Railway Journey",
     location: { en: "Northern Shan State (Mandalay to Lashio Line)", ja: "シャン州北部（マンダレー〜ラーショー間）", my: "ရှမ်းပြည်နယ်မြောက်ပိုင်း" },
     difficulty: { en: "Easy / Sightseeing Adventure", ja: "初級（乗車観光）", my: "လွယ်ကူ / အပန်းဖြေရှုခင်းကြည့်" },
-    image: "images/locations/Gokteik Viaduct Railway.jpg",
+    image: "public/images/locations/Gokteik Viaduct Railway.jpg",
     description: {
       en: "Ride an open-window historic train across a 100-meter-high steel railway trestle built in 1900 spanning a breathtaking gorge.",
       ja: "1900年に建設された高さ約100メートルの巨大鉄橋。窓全開の列車が深い渓谷の上をゆっくりと渡る大迫力の鉄道体験。",
@@ -193,7 +193,7 @@ const adventuresData = [
     category: "Marine Expedition",
     location: { en: "Tanintharyi Region (Andaman Sea)", ja: "タニンダーリ地方域（アンダマン海）", my: "တနင်္သာရီတိုင်းဒေသကြီး (အက်ဒမန်ပင်လယ်)" },
     difficulty: { en: "Moderate / Scuba Certification", ja: "中級（ダイビングライセンス推奨）", my: "အလယ်အလတ် / ရေငုပ်လက်မှတ်" },
-    image: "images/locations/Mergui Archipelago Diving & Kayaking.jpg",
+    image: "public/images/locations/Mergui Archipelago Diving & Kayaking.jpg",
     description: {
       en: "Dive unexplored coral reefs, swim alongside manta rays, and kayak through hidden sea caves in 800 deserted tropical islands.",
       ja: "800以上の無人島が広がるアンダマン海の秘境で、マンタやサメに出会う極上ダイビングと海中洞窟カヤック探検。",

@@ -502,7 +502,7 @@ ol {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #121519 url("../images/home bg photo.jpg") center center / cover
+  background: #121519 url("../public/images/home bg photo.jpg") center center / cover
     no-repeat;
   color: #ffffff;
   padding: 6rem 1.5rem 4rem 1.5rem;

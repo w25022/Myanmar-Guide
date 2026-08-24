@@ -11,7 +11,7 @@ const destinationsData = [
     myanmarName: "ပုဂံရှေးဟောင်းဒေသ",
     region: { en: "Mandalay Region", ja: "マンダレー地方域", my: "မန္တလေးတိုင်းဒေသကြီး" },
     category: "Historical",
-    image: "images/locations/bagan.jpg",
+    image: "public/images/locations/bagan.jpg",
     description: {
       en: "The ancient capital of the Pagan Kingdom, home to over 2,000 preserved Buddhist temples, pagodas, and stupas scattered across lush green plains.",
       ja: "世界遺産に登録された古代パガン王朝の都。平原に広がる2,000基以上の寺院や仏塔群が朝霧や夕陽に美しく映えます。",
@@ -54,7 +54,7 @@ const destinationsData = [
     myanmarName: "ရွှေတိဂုံစေတီတော်",
     region: { en: "Yangon Region", ja: "ヤンゴン地方域", my: "ရန်ကုန်တိုင်းဒေသကြီး" },
     category: "Religious",
-    image: "images/locations/shwedagon pagoda.jpg",
+    image: "public/images/locations/shwedagon pagoda.jpg",
     description: {
       en: "A 99-meter tall golden pagoda encrusted with diamonds and rubies, reigning as Myanmar's most sacred Buddhist site.",
       ja: "高さ99メートル、純金板と数千個のダイヤモンドで覆われたミャンマー最大の仏教の総本山・聖地。",
@@ -94,7 +94,7 @@ const destinationsData = [
     myanmarName: "အင်းလေးကန်",
     region: { en: "Shan State", ja: "シャン州", my: "ရှမ်းပြည်နယ်" },
     category: "Nature",
-    image: "images/locations/inle lake.png",
+    image: "public/images/locations/inle lake.png",
     description: {
       en: "A serene freshwater lake known for traditional leg-rowing fishermen, stilt villages, and floating hydroponic tomato gardens.",
       ja: "独特の片足漕ぎ漁師、水上家屋、湖上に広がる浮き島農園（トマト畑）で知られる高原の穏やかな淡水湖。",
@@ -137,7 +137,7 @@ const destinationsData = [
     myanmarName: "ငပလီကမ်းခြေ",
     region: { en: "Rakhine State", ja: "ラカイン州", my: "ရခိုင်ပြည်နယ်" },
     category: "Beach",
-    image: "images/locations/ngapali beach.jpg",
+    image: "public/images/locations/ngapali beach.jpg",
     description: {
       en: "Myanmar's premier tranquil beach destination featuring pristine turquoise waters, soft white sand, and swaying coconut palms.",
       ja: "ベンガル湾に面したミャンマー随一のリゾートビーチ。透き通る海、白い砂浜、ヤシの木が連なる静寂の楽園。",
@@ -180,7 +180,7 @@ const destinationsData = [
     myanmarName: "မန္တလေး နန်းတော်",
     region: { en: "Mandalay Region", ja: "マンダレー地方域", my: "မန္တလေးတိုင်းဒေသကြီး" },
     category: "Historical",
-    image: "images/locations/mandalay palace.jpg",
+    image: "public/images/locations/mandalay palace.jpg",
     description: {
       en: "The last royal palace of the Burmese monarchy, enclosed within a grand 2-kilometer square walled moat.",
       ja: "ミャンマー最後のコンバウン王朝の王宮。一辺2kmの城壁と美しいお堀に囲まれた歴史的遺産。",
@@ -220,7 +220,7 @@ const destinationsData = [
     myanmarName: "ကျိုက်ထီးရိုးစေတီတော်",
     region: { en: "Mon State", ja: "モン州", my: "မွန်ပြည်နယ်" },
     category: "Religious",
-    image: "images/locations/kyeik htee yoe.jpg",
+    image: "public/images/locations/kyeik htee yoe.jpg",
     description: {
       en: "A gravity-defying boulder covered in gold leaf perched on the edge of a cliff, crowned by a 7.3-meter stupa.",
       ja: "断崖絶壁の縁に絶妙なバランスで乗る、金箔に覆われた奇跡の巨岩パゴダ。熱心な巡礼者が集まる大聖地。",
@@ -260,7 +260,7 @@ const destinationsData = [
     myanmarName: "ဘားအံ သဘာဝဂူများနှင့် ထုံးကျောက်တောင်များ",
     region: { en: "Kayin State", ja: "カイン州", my: "ကရင်ပြည်နယ်" },
     category: "Nature",
-    image: "images/locations/hpa an.jpg",
+    image: "public/images/locations/hpa an.jpg",
     description: {
       en: "Majestic limestone karst pinnacles rising dramatic from emerald paddy fields, harboring sacred cave temples.",
       ja: "緑豊かな水田にそびえ立つ石灰岩のタワーカルスト山群と、千体仏が刻まれた神聖な鍾乳洞。",
@@ -303,7 +303,7 @@ const destinationsData = [
     myanmarName: "မြောက်ဦး ရှေးဟောင်းမြို့တော်",
     region: { en: "Rakhine State", ja: "ラカイン州", my: "ရခိုင်ပြည်နယ်" },
     category: "Historical",
-    image: "images/locations/mrauk oo.jpg",
+    image: "public/images/locations/mrauk oo.jpg",
     description: {
       en: "A medieval Arakanese capital featuring fortified stone-carved fortress temples shrouded in rolling morning mist.",
       ja: "朝霧の中に佇む要塞のような堅牢な石造寺院群。15〜18世紀に繁栄したアラカン王国の古都。",
@@ -343,7 +343,7 @@ const destinationsData = [
     myanmarName: "ပြင်ဦးလွင် (မေမြို့)",
     region: { en: "Mandalay Region", ja: "マンダレー地方域", my: "မန္တလေးတိုင်းဒေသကြီး" },
     category: "Culture",
-    image: "images/locations/pyinoolwin.jpg",
+    image: "public/images/locations/pyinoolwin.jpg",
     description: {
       en: "A refreshing hill station town renowned for Victorian colonial cottages, flower gardens, waterfalls, and coffee plantations.",
       ja: "涼しい気候と英国風の洋館、広大な植物園、いちご畑やコーヒー農園で知られる歴史ある避暑地高原都市。",
@@ -386,7 +386,7 @@ const destinationsData = [
     myanmarName: "ကလောမြို့ (တောင်ပေါ်မြို့)",
     region: { en: "Shan State", ja: "シャン州", my: "ရှမ်းပြည်နယ်" },
     category: "Nature",
-    image: "images/locations/kalaw.jpg",
+    image: "public/images/locations/kalaw.jpg",
     description: {
       en: "A tranquil pine-forested hill station serving as Myanmar's premier hub for multi-day trekking to Inle Lake.",
       ja: "松林に囲まれた爽やかな高原の町。インレー湖へと抜ける風光明媚なトレッキングの出発地として大人気。",
@@ -429,7 +429,7 @@ const destinationsData = [
     myanmarName: "မြိတ်ကျွန်းစု (တနင်္သာရီ)",
     region: { en: "Tanintharyi Region", ja: "タニンダーリ地方域", my: "တနင်္သာရီတိုင်းဒေသကြီး" },
     category: "Beach",
-    image: "images/locations/Mergui Archipelago Diving & Kayaking.jpg",
+    image: "public/images/locations/Mergui Archipelago Diving & Kayaking.jpg",
     description: {
       en: "Over 800 untouched tropical islands in the Andaman Sea, home to the sea-nomadic Moken people, coral reefs, and deserted coves.",
       ja: "アンダマン海に浮かぶ800以上の未踏の無人島群。モーケン族（海の民）の文化、極上のサンゴ礁、手つかずの秘境。",
@@ -472,7 +472,7 @@ const destinationsData = [
     myanmarName: "ရန်ကုန်မြို့တွင်း ရှေးဟောင်းအမွေအနှစ်ဒေသ",
     region: { en: "Yangon Region", ja: "ヤンゴン地方域", my: "ရန်ကုန်တိုင်းဒေသကြီး" },
     category: "City",
-    image: "images/locations/yangon.jpg",
+    image: "public/images/locations/yangon.jpg",
     description: {
       en: "Southeast Asia's densest concentration of grand colonial architecture, historic tea shops, art galleries, and lively street food alleys.",
       ja: "東南アジアで最も密集した歴史的コロニアル建築群、伝統的な喫茶店、活気あふれる屋台街が融合する大都市。",

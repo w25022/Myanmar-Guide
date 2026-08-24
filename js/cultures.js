@@ -12,7 +12,7 @@ const cultureHeroFeatures = [
     subtitle: "Kayah State & Shan Borders • Ancient Brass Ring Tradition",
     subtitleJa: "カヤー州・シャン州境界 • 幾世代にもわたり受け継がれる真鍮リング",
     subtitleMy: "ကယားပြည်နယ်နှင့် ရှမ်းပြည်နယ်စပ် • ကြေးခွေစွပ် ရိုးရာဓလေ့",
-    image: "images/Kayan Long Neck Peoples.jpg",
+    image: "public/images/Kayan Long Neck Peoples.jpg",
     paragraphs: {
       en: [
         "The Kayan Lahwi are a subgroup of the Karenni people inhabiting the green hills of Kayah State and southern Shan State. Kayan women are celebrated worldwide for their distinctive traditional brass coils worn around the neck from early childhood.",
@@ -56,7 +56,7 @@ const cultureHeroFeatures = [
     subtitle: "Southern Chin Hills (Mindat & Kanpetlet) • Sacred Living History",
     subtitleJa: "チン州南部（ミンダッ・カンペトレ） • 誇り高き生きた歴史",
     subtitleMy: "ချင်းပြည်နယ်တောင်ပိုင်း (မင်းတပ် နှင့် ကန်ပက်လက်) • သမိုင်းဝင်ရိုးရာ",
-    image: "images/Chin Facial Tattoo Tradition.jpg",
+    image: "public/images/Chin Facial Tattoo Tradition.jpg",
     paragraphs: {
       en: [
         "In the misty highlands of Chin State, elderly women bear elaborate full-facial tattoos, a centuries-old tradition spanning distinct Chin sub-groups including the Dai, Mun, M'Kaan, and Yindu clans.",
@@ -100,7 +100,7 @@ const cultureHeroFeatures = [
     subtitle: "Highland Hospitality & Communal Celebration",
     subtitleJa: "山岳民族の温かいおもてなしと祝宴の象徴",
     subtitleMy: "ဧည့်ဝတ်ကျေပွန်မှုနှင့် တိုင်းရင်းသား ရိုးရာပွဲတော်များ",
-    image: "images/Khauk Ye (Rice Wine Tradition).jpg",
+    image: "public/images/Khauk Ye (Rice Wine Tradition).jpg",
     paragraphs: {
       en: [
         "Khauk Ye (Khaung Yay) is Myanmar's revered traditional fermented rice beverage, crafted for centuries by the Kachin, Chin, Shan, and Naga highland nations.",
@@ -144,7 +144,7 @@ const cultureHeroFeatures = [
     subtitle: "Chin, Kayin & Kachin Communities • Rhythmic Agility & Harmony",
     subtitleJa: "チン族・カイン族・カチン族 • リズムと俊敏性が織りなす伝統舞踊",
     subtitleMy: "ချင်း၊ ကရင် နှင့် ကချင်တိုင်းရင်းသားများ • စည်းချက်ညီ ရိုးရာအက",
-    image: "images/Traditional Bamboo Dance myanmar.jpg",
+    image: "public/images/Traditional Bamboo Dance myanmar.jpg",
     paragraphs: {
       en: [
         "The Bamboo Dance (known variously as Cheraw among the Chin and Karen Bamboo Dance) is one of the most vibrant performance traditions in Myanmar.",

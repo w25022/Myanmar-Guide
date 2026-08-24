@@ -7,7 +7,7 @@ const regionsData = {
   mandalay: {
     name: { en: "Mandalay Region", ja: "マンダレー地方域", my: "မန္တလေးတိုင်းဒေသကြီး" },
     capital: { en: "Capital / Hub: Mandalay City • Climate: Dry central zone", ja: "中心都市: マンダレー市 • 気候: 熱帯乾燥ステップ気候", my: "မြို့တော်: မန္တလေးမြို့ • ရာသီဥတု: အပူပိုင်း အပူလျော့ဇုန်" },
-    image: "images/locations/Mandalay.jpg",
+    image: "public/images/locations/Mandalay.jpg",
     description: {
       en: "The historical and cultural heartland of Myanmar, containing the thousands of ancient temples across the Bagan plains, U Bein Bridge, and royal capitals.",
       ja: "ミャンマーの歴史と文化の中心地。バガンの古代寺院群、世界最長の木造橋ウーベイン橋、最後の王宮が位置します。",
@@ -22,7 +22,7 @@ const regionsData = {
   kachin: {
     name: { en: "Kachin State", ja: "カチン州", my: "ကချင်ပြည်နယ်" },
     capital: { en: "Capital / Hub: Myitkyina & Putao • Climate: Alpine & temperate", ja: "中心都市: ミッチーナ / プタオ • 気候: 高山性・冷涼", my: "မြို့တော်: မြစ်ကြီးနား / ပူတာအို • ရာသီဥတု: အေးမြသော တောင်ပေါ်ဇုန်" },
-    image: "images/locations/Hkakabo Razi.jpg",
+    image: "public/images/locations/Hkakabo Razi.jpg",
     description: {
       en: "Northern wilderness featuring snow-capped Himalayan peaks, the confluence of the Ayeyarwady River (Myitsone), and colorful Manaw festival traditions.",
       ja: "白銀のヒマラヤ東端の峰々、母なる大河エーヤワディーの始まりの合流点（ミッソン）、鮮やかなマナウ祭りで知られる最北の秘境。",
@@ -37,7 +37,7 @@ const regionsData = {
   shan: {
     name: { en: "Shan State", ja: "シャン州", my: "ရှမ်းပြည်နယ်" },
     capital: { en: "Capital / Hub: Taunggyi & Inle • Climate: Cool subtropical highland", ja: "中心都市: タウンジー / インレー • 気候: 快適な高原気候", my: "မြို့တော်: တောင်ကြီး / အင်းလေး • ရာသီဥတု: သမပိုင်း ကုန်းမြင့်ဇုန်" },
-    image: "images/locations/inle lake.png",
+    image: "public/images/locations/inle lake.png",
     description: {
       en: "Sprawling rolling highlands with floating gardens at Inle Lake, hill tribe trekking trails around Kalaw, and famous Pindaya limestone caves.",
       ja: "広大な高原地帯。インレー湖の水上集落、カローの絶景トレッキング、数千体の黄金仏が並ぶピンダヤ鍾乳洞など見どころが満載。",
@@ -52,7 +52,7 @@ const regionsData = {
   yangon: {
     name: { en: "Yangon Region", ja: "ヤンゴン地方域", my: "ရန်ကုန်တိုင်းဒေသကြီး" },
     capital: { en: "Commercial Hub: Yangon City • Climate: Tropical monsoon", ja: "商業都市: ヤンゴン市 • 気候: 熱帯モンスーン気候", my: "စီးပွားရေးဗဟို: ရန်ကုန်မြို့ • ရာသီဥတု: အပူပိုင်း မုတ်သုံဇုန်" },
-    image: "images/locations/yangon.jpg",
+    image: "public/images/locations/yangon.jpg",
     description: {
       en: "Myanmar's grand commercial gateway and largest metropolis, home to the sacred Shwedagon Pagoda and rich colonial heritage buildings.",
       ja: "ミャンマー最大の商業都市であり国際的ゲートウェイ。黄金に輝くシュエダゴン・パゴダとレトロな歴史的建築群が魅力。",
@@ -67,7 +67,7 @@ const regionsData = {
   rakhine: {
     name: { en: "Rakhine State", ja: "ラカイン州", my: "ရခိုင်ပြည်နယ်" },
     capital: { en: "Capital: Sittwe • Key Areas: Ngapali & Mrauk U", ja: "中心都市: シットウェ / ガパリ / ミャウー", my: "မြို့တော်: စစ်တွေ / ငပလီ / မြောက်ဦး" },
-    image: "images/locations/mrauk oo.jpg",
+    image: "public/images/locations/mrauk oo.jpg",
     description: {
       en: "Coastal frontier renowned for idyllic tropical beaches at Ngapali and the ancient stone fortress temples of Mrauk U.",
       ja: "ベンガル湾に面した海岸地帯。最高のリゾート地ガパリビーチと、要塞のような石造寺院が連なる古都ミャウーが有名。",
@@ -82,7 +82,7 @@ const regionsData = {
   kayin: {
     name: { en: "Kayin State", ja: "カイン州", my: "ကရင်ပြည်နယ်" },
     capital: { en: "Capital: Hpa-An • Climate: Tropical limestone valley", ja: "中心都市: パアン • 気候: カルスト山岳・熱帯", my: "မြို့တော်: ဘားအံမြို့ • ရာသီဥတု: ထုံးကျောက်တောင်တန်းဇုန်" },
-    image: "images/locations/hpa an.jpg",
+    image: "public/images/locations/hpa an.jpg",
     description: {
       en: "Spectacular limestone karst landscapes, sacred temple caves, dramatic Mount Zwegabin, and unique Karen cultural dance traditions.",
       ja: "緑の田園からそびえるタワーカルスト奇岩、千体仏の鍾乳洞、ズウェガビン山、エネルギッシュな竹踊りで知られるカイン州。",
@@ -97,7 +97,7 @@ const regionsData = {
   mon: {
     name: { en: "Mon State", ja: "モン州", my: "မွန်ပြည်နယ်" },
     capital: { en: "Capital: Mawlamyine • Key Spot: Kyaikhtiyo", ja: "中心都市: モーラミャイン / チャイティーヨー", my: "မြို့တော်: မော်လမြိုင် / ကျိုက်ထို" },
-    image: "images/locations/kyeik htee yoe.jpg",
+    image: "public/images/locations/kyeik htee yoe.jpg",
     description: {
       en: "Home to the gravity-defying Golden Rock boulder at Kyaiktiyo, historic port city of Mawlamyine, and giant Win Sein reclining Buddha.",
       ja: "絶壁に立つ奇跡の聖地ゴールデンロック（チャイティーヨー）や、歴史ある港町モーラミャイン、巨大寝釈迦仏を擁する州。",
@@ -112,7 +112,7 @@ const regionsData = {
   tanintharyi: {
     name: { en: "Tanintharyi Region", ja: "タニンダーリ地方域", my: "တနင်္သာရီတိုင်းဒေသကြီး" },
     capital: { en: "Hub: Myeik & Kawthaung • Climate: Tropical maritime", ja: "中心都市: ミェイク / コータウン • 気候: 熱帯海洋性", my: "မြို့တော်: မြိတ် / ကော့သောင်း • ရာသီဥတု: အပူပိုင်း ပင်လယ်ဇုန်" },
-    image: "images/locations/Mergui Archipelago Diving & Kayaking.jpg",
+    image: "public/images/locations/Mergui Archipelago Diving & Kayaking.jpg",
     description: {
       en: "Southern coastal strip featuring the world-renowned Mergui Archipelago with 800 coral islands, pearling, and sea gypsy culture.",
       ja: "800以上の手つかずの無人島が広がるメルギー諸島（ミェイク群島）と、モーケン族（海の民）が暮らすミャンマー最南端の楽園。",
@@ -127,7 +127,7 @@ const regionsData = {
   sagaing: {
     name: { en: "Sagaing Region", ja: "ザガイン地方域", my: "စစ်ကိုင်းတိုင်းဒေသကြီး" },
     capital: { en: "Capital: Sagaing & Monywa • Climate: Semi-arid central", ja: "中心都市: ザガイン / モンユワ • 気候: 乾燥ステップ気候", my: "မြို့တော်: စစ်ကိုင်း / မုံရွာ • ရာသီဥတု: အလယ်ပိုင်း အပူပိုင်းဇုန်" },
-    image: "images/locations/saging.jpg",
+    image: "public/images/locations/saging.jpg",
     description: {
       en: "The monastic spiritual center of Myanmar, studded with hundreds of white and golden stupas crowning the green Sagaing Hills and Monywa's caves.",
       ja: "緑の丘に無数の白い仏塔が並ぶミャンマー屈指の仏教瞑想の聖地。モンユワのポーウィンタウン石窟寺院や巨大立仏も有名。",
@@ -142,7 +142,7 @@ const regionsData = {
   chin: {
     name: { en: "Chin State", ja: "チン州", my: "ချင်းပြည်နယ်" },
     capital: { en: "Capital: Hakha • Key Area: Mount Victoria", ja: "中心都市: ハッカ / カンペトレ / ミンダッ", my: "မြို့တော်: ဟားခါး / ကန်ပက်လက် / မင်းတပ်" },
-    image: "images/locations/Mount Victoria (Nat Ma Taung).jpg",
+    image: "public/images/locations/Mount Victoria (Nat Ma Taung).jpg",
     description: {
       en: "High-altitude mountain territory renowned for Mount Victoria (Nat Ma Taung), rhododendron blooms, and living facial tattoo cultural traditions.",
       ja: "標高3,000m級の山々が連なるチン高原。シャクナゲの群生、心打つ雲海、伝統の顔タトゥーを受け継ぐ長老たちが暮らす秘境。",

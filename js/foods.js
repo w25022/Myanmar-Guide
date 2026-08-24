@@ -11,7 +11,7 @@ const foodsData = [
     myanmarName: "မုန့်ဟင်းခါး",
     category: "Noodles",
     spicyLevel: "Mild",
-    image: "images/foods/mohinga.jpg",
+    image: "public/images/foods/mohinga.jpg",
     description: {
       en: "Myanmar's unofficial national dish: tender rice noodles immersed in a rich, aromatic catfish and lemongrass broth, garnished with crispy split-pea fritters.",
       ja: "ミャンマーの国民食。ナマズの出汁にレモングラス、バナナの芯、生姜を効かせた濃厚スープに米麺を合わせた香り豊かな一杯。",
@@ -36,7 +36,7 @@ const foodsData = [
     myanmarName: "လက်ဖက်သုပ်",
     category: "Salad",
     spicyLevel: "Medium",
-    image: "images/foods/laphetthoke.jpg",
+    image: "public/images/foods/laphetthoke.jpg",
     description: {
       en: "Fermented tea leaves tossed with crunchy roasted beans, peanuts, toasted sesame, fried garlic, diced tomatoes, bird's eye chilies, and tangy lime juice.",
       ja: "発酵させた茶葉（ラペッ）に、香ばしい揚げ豆、ピーナッツ、揚げにんにく、トマト、唐辛子、ライムを和えた絶品サラダ。",
@@ -61,7 +61,7 @@ const foodsData = [
     myanmarName: "ရှမ်းခေါက်ဆွဲ",
     category: "Noodles",
     spicyLevel: "Mild",
-    image: "images/foods/shan noodle.jpg",
+    image: "public/images/foods/shan noodle.jpg",
     description: {
       en: "Delicate flat rice noodles paired with savory minced chicken or pork simmered in tomatoes, spiced garlic oil, toasted sesame, and served dry or in clear broth.",
       ja: "モチモチした米麺に、トマトと鶏肉（または豚肉）を甘辛く煮込んだタレ、特製ガーリックオイル、炒りごまを絡めたシャン族の郷土麺。",
@@ -86,7 +86,7 @@ const foodsData = [
     myanmarName: "အုန်းနို့ခေါက်ဆွဲ",
     category: "Noodles",
     spicyLevel: "Mild",
-    image: "images/foods/Ohnnokhaoswe.jpg",
+    image: "public/images/foods/Ohnnokhaoswe.jpg",
     description: {
       en: "Silky egg noodles immersed in a creamy, velvety spiced coconut milk and chicken curry broth, topped with shallots and crispy wonton fritters.",
       ja: "濃厚でまろやかなココナッツミルクと鶏肉のカレー風味スープに、卵麺を合わせた贅沢でリッチな味わいの伝統麺料理。",
@@ -111,7 +111,7 @@ const foodsData = [
     myanmarName: "နန်းကြီးသုပ်",
     category: "Noodles",
     spicyLevel: "Mild",
-    image: "images/foods/nangyithoke.jpg",
+    image: "public/images/foods/nangyithoke.jpg",
     description: {
       en: "Often dubbed the 'Burmese Spaghetti': thick round rice noodles tossed with rich chicken curry gravy, roasted chickpea flour, chili oil, and crispy shallots.",
       ja: "「ビルマ風スパゲッティ」と称される、太い丸米麺に特製チキンカレーソース、ひよこ豆粉、チリオイルを豪快に和えた満足感抜群の一皿。",
@@ -136,7 +136,7 @@ const foodsData = [
     myanmarName: "ဒံပေါက်",
     category: "Rice",
     spicyLevel: "Mild",
-    image: "images/foods/biryani.jpg",
+    image: "public/images/foods/biryani.jpg",
     description: {
       en: "Fragrant basmati rice slow-cooked with whole chicken quarters, saffron, ghee, cashews, raisins, cloves, and cardamom, served with fresh cucumber relish.",
       ja: "サフラン、カルダモン、ギー（澄ましバター）、カシューナッツ、レーズンと共に丸ごと骨付きチキンを炊き込んだ極上のビリヤニ。",
@@ -161,7 +161,7 @@ const foodsData = [
     myanmarName: "မုန့်လင်မယား",
     category: "Snack",
     spicyLevel: "None",
-    image: "images/foods/Mont Lin Ma Yar.jpg",
+    image: "public/images/foods/Mont Lin Ma Yar.jpg",
     description: {
       en: "Crispy-shelled street fritters cooked in cast-iron dimpled pans: two halves filled with quail eggs, green onions, and boiled peas are joined together like a couple.",
       ja: "小さなくぼみのある鉄板で香ばしく焼き上げるストリートスナック。ウズラの卵やネギ、豆を入れて二つの半球を夫婦のように貼り合わせます。",
@@ -186,7 +186,7 @@ const foodsData = [
     myanmarName: "မုန့်လုံးရေပေါ်",
     category: "Dessert",
     spicyLevel: "None",
-    image: "images/foods/Mont Lone Yay Paw.jpg",
+    image: "public/images/foods/Mont Lone Yay Paw.jpg",
     description: {
       en: "Chewy glutinous rice dumplings stuffed with rich palm sugar jaggery that float to the water's surface when cooked, dusted with fresh grated coconut.",
       ja: "モチモチの米粉団子の中に甘いパームシュガー（ヤシ糖）を包み、茹でて水面に浮かび上がったら新鮮な削りココナッツをまぶしていただきます。",
@@ -211,7 +211,7 @@ const foodsData = [
     myanmarName: "တို့ဟူးသုပ်",
     category: "Salad",
     spicyLevel: "Mild",
-    image: "images/foods/Tohu Thoke.jpg",
+    image: "public/images/foods/Tohu Thoke.jpg",
     description: {
       en: "Silky, handmade golden tofu crafted from ground yellow chickpeas (not soy), tossed with sweet soy, garlic oil, tamarind dressing, toasted sesame, and fresh herbs.",
       ja: "大豆ではなく「ひよこ豆粉」から手作りする黄金色のなめらか豆腐に、タマリンドソース、ガーリックオイル、炒りごま、香草を和えたヘルシー料理。",
@@ -236,7 +236,7 @@ const foodsData = [
     myanmarName: "မြန်မာ့ရိုးရာ ဆီပြန်ဟင်း",
     category: "Curry",
     spicyLevel: "Medium",
-    image: "images/foods/Traditional Burmese Curry.jpg",
+    image: "public/images/foods/Traditional Burmese Curry.jpg",
     description: {
       en: "Slow-simmered pork, mutton, or river prawns in a rich aromatic base of slow-cooked shallots, garlic, ginger, and turmeric until fragrant oil surfaces.",
       ja: "たっぷりの赤わけぎ、生姜、にんにく、ターメリックをじっくり炒め、肉やエビの旨味を凝縮させたミャンマーの家庭料理の王道。",
@@ -261,7 +261,7 @@ const foodsData = [
     myanmarName: "ကြေးအိုး",
     category: "Noodles",
     spicyLevel: "Mild",
-    image: "images/foods/Kyay Oh.jpg",
+    image: "public/images/foods/Kyay Oh.jpg",
     description: {
       en: "Nourishing clear soup made with delicate glass noodles, seasoned pork meatballs, tender pork cuts, quail eggs, and mustard greens simmered in traditional brass pots.",
       ja: "真鍮の小鍋で一人前ずつ丁寧に煮込む春雨スープ。手作り肉団子、豚の内臓やスライス肉、ウズラの卵、青菜が入った優しい味。",
@@ -286,7 +286,7 @@ const foodsData = [
     myanmarName: "မုန့်ပျားသလက်",
     category: "Snack",
     spicyLevel: "None",
-    image: "images/foods/Mont Pyar Tha Let.jpg",
+    image: "public/images/foods/Mont Pyar Tha Let.jpg",
     description: {
       en: "A fluffy, golden-crusted griddle pancake with honeycomb pockets, studded with tender boiled yellow peas, spring onions, and roasted sesame seeds.",
       ja: "表面はカリッと中はふっくらモチモチした米粉のお食事系パンケーキ。ホクホクの煮豆と青ネギ、ごまの風味が広がります。",
