@@ -1,0 +1,6 @@
+{
+  "name": "Myanmar Guide",
+  "description": "Discover Myanmar — Places, Food, Culture & Adventure. Modern interactive travel guide for foreign tourists and international visitors.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

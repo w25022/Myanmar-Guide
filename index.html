@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>🇲🇲 MYANMAR GUIDE — Discover Myanmar: Places, Food, Culture & Adventure</title>
+  <meta name="description" content="Discover Myanmar: An authentic, interactive guide to Myanmar's famous destinations, traditional cuisine, rich cultural heritage, language, and travel advice." />
+  
+  <!-- Google Fonts: Plus Jakarta Sans for modern UI, Noto Sans JP for Japanese, and Noto Sans Myanmar for authentic Burmese script rendering -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;600;700;800&family=Noto+Sans+Myanmar:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+
+  <!-- Main Pure CSS Stylesheet -->
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+<body>
+
+  <!-- =========================================================================
+       1. STICKY NAVIGATION BAR
+       ========================================================================= -->
+  <header class="navbar" id="navbar">
+    <div class="container navbar-container">
+      <!-- Brand Logo -->
+      <a href="#home" class="nav-brand" id="nav-brand-link">
+        <span class="nav-brand-flag">🇲🇲</span>
+        <span class="nav-brand-text" data-i18n="nav_brand_title">MYANMAR GUIDE</span>
+      </a>
+
+      <!-- Main Navigation Links -->
+      <nav class="nav-menu" id="nav-menu" aria-label="Main Navigation">
+        <!-- Mobile Drawer Language Selector Header -->
+        <div class="nav-mobile-lang-box">
+          <span class="nav-mobile-lang-label">🌐 Language / 言語 / ဘာသာစကား</span>
+          <div class="nav-mobile-lang-pills">
+            <button type="button" class="nav-mobile-lang-btn active" data-lang="en">🇬🇧 English</button>
+            <button type="button" class="nav-mobile-lang-btn" data-lang="ja">🇯🇵 日本語</button>
+            <button type="button" class="nav-mobile-lang-btn" data-lang="my">🇲🇲 မြန်မာစာ</button>
+          </div>
+        </div>
+
+        <a href="#home" class="nav-link active" id="nav-link-home" data-i18n="nav_home">Home</a>
+        <a href="#explore" class="nav-link" id="nav-link-explore" data-i18n="nav_explore">Explore</a>
+        <a href="#places" class="nav-link" id="nav-link-places" data-i18n="nav_places">Places</a>
+        <a href="#food" class="nav-link" id="nav-link-food" data-i18n="nav_food">Food</a>
+        <a href="#adventure" class="nav-link" id="nav-link-adventure" data-i18n="nav_adventure">Adventure</a>
+        <a href="#culture" class="nav-link" id="nav-link-culture" data-i18n="nav_culture">Culture</a>
+        <a href="#language" class="nav-link" id="nav-link-language" data-i18n="nav_language">Language</a>
+        <a href="#money" class="nav-link" id="nav-link-money" data-i18n="nav_money">Money</a>
+        <a href="#tips" class="nav-link" id="nav-link-tips" data-i18n="nav_tips">Tips</a>
+      </nav>
+
+      <!-- Actions: Language Switch Bar, Theme Toggle & Mobile Hamburger Menu -->
+      <div class="nav-actions">
+        <!-- Primary Segmented Quick Language Switch Bar -->
+        <div class="lang-switch-bar" id="lang-switch-bar" role="group" aria-label="Language Selector">
+          <button type="button" class="lang-bar-btn active" data-lang="en" aria-label="Switch to English" title="English">
+            <span class="lang-bar-flag">🇬🇧</span>
+            <span class="lang-bar-text">EN</span>
+          </button>
+          <button type="button" class="lang-bar-btn" data-lang="ja" aria-label="日本語に切り替え" title="日本語">
+            <span class="lang-bar-flag">🇯🇵</span>
+            <span class="lang-bar-text">日本語</span>
+          </button>
+          <button type="button" class="lang-bar-btn" data-lang="my" aria-label="မြန်မာစာသို့ ပြောင်းရန်" title="မြန်မာစာ">
+            <span class="lang-bar-flag">🇲🇲</span>
+            <span class="lang-bar-text">မြန်မာ</span>
+          </button>
+        </div>
+
+        <button type="button" class="theme-toggle-btn" id="theme-toggle-btn" aria-label="Toggle Dark or Light Mode" title="Toggle Theme">
+          🌙
+        </button>
+        <button type="button" class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Open Navigation Menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- =========================================================================
+       2. HERO SECTION
+       ========================================================================= -->
+  <section class="hero" id="home">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <div class="hero-badge" data-i18n="hero_badge">
+        ✨ Welcome to the Golden Land
+      </div>
+      <h1 class="hero-title">
+        <span data-i18n="hero_title_discover">Discover</span> <span data-i18n="hero_title_myanmar">Myanmar</span>
+      </h1>
+      <p class="hero-subtitle" data-i18n="hero_subtitle">
+        Explore the Golden Land — its beautiful places, delicious food, rich cultures and unforgettable adventures.
+      </p>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       3. EXPLORE MYANMAR — INTERACTIVE MAP SECTION
+       ========================================================================= -->
+  <section class="section section-alt" id="explore">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-badge" data-i18n="explore_badge">Interactive Map</div>
+        <h2 class="section-title" data-i18n="explore_title">Explore Myanmar</h2>
+        <p class="section-subtitle" data-i18n="explore_subtitle">Discover different regions and experiences across Myanmar.</p>
+      </div>
+
+      <div class="map-layout">
+        <!-- SVG Map Container -->
+        <div class="map-container" id="map-interactive-container">
+          <div class="map-svg-wrapper">
+            <!-- Simplified Geographic SVG Representation of Myanmar with Clickable Zones -->
+            <svg class="myanmar-svg-map" viewBox="0 0 450 620" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Interactive Map of Myanmar">
+              <defs>
+                <filter id="map-glow" x="-20%" y="-20%" width="140%" height="140%">
+                  <feDropShadow dx="0" dy="4" stdDeviation="4" flood-opacity="0.15"/>
+                </filter>
+              </defs>
+
+              <!-- Myanmar Geographic Silhouette Regions -->
+              <g filter="url(#map-glow)">
+                <!-- Kachin State (Far North) -->
+                <path class="map-region" data-region="kachin" d="M210,30 L275,50 L285,115 L245,155 L190,140 L180,90 Z" />
+                
+                <!-- Sagaing Region (North-West Central) -->
+                <path class="map-region" data-region="sagaing" d="M140,110 L190,140 L210,210 L170,260 L125,230 L115,160 Z" />
+                
+                <!-- Chin State (West Highlands) -->
+                <path class="map-region" data-region="chin" d="M95,190 L130,200 L125,290 L85,280 L80,215 Z" />
+
+                <!-- Shan State (East Highlands / Inle) -->
+                <path class="map-region" data-region="shan" d="M245,155 L320,180 L350,260 L300,320 L230,290 L220,205 Z" />
+
+                <!-- Mandalay Region (Center Heart / Bagan) -->
+                <path class="map-region active" data-region="mandalay" d="M170,240 L225,235 L230,310 L185,340 L150,290 Z" />
+
+                <!-- Rakhine State (West Coast / Ngapali & Mrauk U) -->
+                <path class="map-region" data-region="rakhine" d="M75,280 L120,300 L135,400 L95,430 L60,340 Z" />
+
+                <!-- Kayin & Kayah States (East Border / Hpa-An) -->
+                <path class="map-region" data-region="kayin" d="M230,310 L275,320 L280,410 L240,430 L215,360 Z" />
+
+                <!-- Yangon & Bago Regions (South Central Gateway) -->
+                <path class="map-region" data-region="yangon" d="M155,340 L215,360 L205,440 L160,435 L145,385 Z" />
+
+                <!-- Mon State (South-East / Golden Rock) -->
+                <path class="map-region" data-region="mon" d="M225,410 L255,420 L260,480 L230,480 Z" />
+
+                <!-- Tanintharyi Region (Far South Strip / Mergui & Kawthaung) -->
+                <path class="map-region" data-region="tanintharyi" d="M255,460 L285,480 L295,575 L275,600 L255,530 Z" />
+              </g>
+
+              <!-- Interactive Destination Pins -->
+              <!-- 1. Kachin / Hkakabo Razi -->
+              <g class="map-pin" data-region="kachin" transform="translate(235, 75)">
+                <circle class="map-pin-circle" r="7" />
+                <text class="map-pin-label" id="map-pin-label-kachin" x="12" y="4">Kachin (Mountains)</text>
+              </g>
+
+              <!-- 2. Shan / Inle Lake -->
+              <g class="map-pin" data-region="shan" transform="translate(275, 235)">
+                <circle class="map-pin-circle" r="7" />
+                <text class="map-pin-label" id="map-pin-label-shan" x="12" y="4">Shan (Inle Lake)</text>
+              </g>
+
+              <!-- 3. Mandalay / Bagan -->
+              <g class="map-pin active" data-region="mandalay" transform="translate(185, 270)">
+                <circle class="map-pin-circle" r="8" />
+                <text class="map-pin-label" id="map-pin-label-mandalay" x="-85" y="4">Mandalay / Bagan</text>
+              </g>
+
+              <!-- 4. Sagaing -->
+              <g class="map-pin" data-region="sagaing" transform="translate(160, 180)">
+                <circle class="map-pin-circle" r="6" />
+                <text class="map-pin-label" id="map-pin-label-sagaing" x="12" y="4">Sagaing</text>
+              </g>
+
+              <!-- 5. Chin State -->
+              <g class="map-pin" data-region="chin" transform="translate(100, 240)">
+                <circle class="map-pin-circle" r="6" />
+                <text class="map-pin-label" id="map-pin-label-chin" x="-68" y="4">Chin State</text>
+              </g>
+
+              <!-- 6. Rakhine / Ngapali & Mrauk U -->
+              <g class="map-pin" data-region="rakhine" transform="translate(95, 365)">
+                <circle class="map-pin-circle" r="7" />
+                <text class="map-pin-label" id="map-pin-label-rakhine" x="-82" y="4">Rakhine (Ngapali)</text>
+              </g>
+
+              <!-- 7. Yangon / Shwedagon -->
+              <g class="map-pin" data-region="yangon" transform="translate(180, 410)">
+                <circle class="map-pin-circle" r="8" />
+                <text class="map-pin-label" id="map-pin-label-yangon" x="12" y="4">Yangon</text>
+              </g>
+
+              <!-- 8. Kayin / Hpa-An -->
+              <g class="map-pin" data-region="kayin" transform="translate(250, 380)">
+                <circle class="map-pin-circle" r="7" />
+                <text class="map-pin-label" id="map-pin-label-kayin" x="12" y="4">Kayin (Hpa-An)</text>
+              </g>
+
+              <!-- 9. Mon / Golden Rock -->
+              <g class="map-pin" data-region="mon" transform="translate(235, 445)">
+                <circle class="map-pin-circle" r="6" />
+                <text class="map-pin-label" id="map-pin-label-mon" x="12" y="4">Mon (Golden Rock)</text>
+              </g>
+
+              <!-- 10. Tanintharyi / Mergui & Kawthaung -->
+              <g class="map-pin" data-region="tanintharyi" transform="translate(275, 545)">
+                <circle class="map-pin-circle" r="7" />
+                <text class="map-pin-label" id="map-pin-label-tanintharyi" x="-105" y="4">Tanintharyi (Kawthaung)</text>
+              </g>
+            </svg>
+          </div>
+
+          <!-- Quick Region Chips -->
+          <div class="region-chips-wrapper" id="region-chips-wrapper">
+            <button type="button" class="region-chip" data-region="kachin">Kachin</button>
+            <button type="button" class="region-chip" data-region="shan">Shan</button>
+            <button type="button" class="region-chip active" data-region="mandalay">Mandalay</button>
+            <button type="button" class="region-chip" data-region="sagaing">Sagaing</button>
+            <button type="button" class="region-chip" data-region="chin">Chin</button>
+            <button type="button" class="region-chip" data-region="rakhine">Rakhine</button>
+            <button type="button" class="region-chip" data-region="yangon">Yangon</button>
+            <button type="button" class="region-chip" data-region="mon">Mon</button>
+            <button type="button" class="region-chip" data-region="kayin">Kayin</button>
+            <button type="button" class="region-chip" data-region="tanintharyi">Tanintharyi</button>
+          </div>
+        </div>
+
+        <!-- Interactive Map Information Panel -->
+        <div class="map-info-card" id="map-info-card">
+          <div class="map-info-header">
+            <div class="map-info-title-wrap">
+              <div class="map-info-badge" data-i18n="map_selected_region">Selected Region</div>
+              <h3 class="map-info-title" id="map-info-title">Mandalay Region</h3>
+              <div class="map-info-capital" id="map-info-capital">Capital: Mandalay City</div>
+            </div>
+          </div>
+          <img class="map-info-img" id="map-info-img" src="https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=800&q=80" alt="Mandalay Region" />
+          <p class="map-info-desc" id="map-info-desc">
+            The historical and cultural heartland of Myanmar, containing the thousands of ancient temples across the Bagan plains, U Bein Bridge, and royal capitals.
+          </p>
+          <div class="map-info-highlights" id="map-info-highlights">
+            <!-- Dynamically populated -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       4. FAMOUS PLACES SECTION (12 Major Destinations)
+       ========================================================================= -->
+  <section class="section" id="places">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-badge" data-i18n="places_badge">Must-Visit Destinations</div>
+        <h2 class="section-title" data-i18n="places_title">Famous Places</h2>
+        <p class="section-subtitle" data-i18n="places_subtitle">Discover ancient temples, golden stupas, tranquil lakes, and sun-kissed beaches.</p>
+      </div>
+
+      <!-- 12 Destination Cards Dynamic Container -->
+      <div class="cards-grid" id="destinations-grid">
+        <!-- Rendered by JavaScript dynamically -->
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       5. MYANMAR FOOD SECTION (12 Traditional Dishes)
+       ========================================================================= -->
+  <section class="section section-alt" id="food">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-badge" data-i18n="food_badge">Culinary Heritage</div>
+        <h2 class="section-title" data-i18n="food_title">Myanmar Food</h2>
+        <p class="section-subtitle" data-i18n="food_subtitle">Experience a sublime harmony of savory, sour, spicy, and crunchy flavors.</p>
+      </div>
+
+      <!-- 12 Food Cards Dynamic Container -->
+      <div class="cards-grid" id="foods-grid">
+        <!-- Rendered by JavaScript dynamically -->
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       6. ADVENTURE IN MYANMAR SECTION
+       ========================================================================= -->
+  <section class="section" id="adventure">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-badge" data-i18n="adv_badge">Wild & Untamed</div>
+        <h2 class="section-title" data-i18n="adv_title">Adventure in Myanmar</h2>
+        <p class="section-subtitle" data-i18n="adv_subtitle">Discover Myanmar beyond the famous tourist destinations.</p>
+      </div>
+
+      <!-- Featured Experience: Hkakabo Razi Trekking -->
+          <span class="adventure-featured-badge" id="featured-adv-badge" data-i18n="adv_featured_badge">Featured Expedition</span>      <div class="adventure-featured" id="featured-adventure-hkakabo">
+        <div class="adventure-featured-img-wrap">
+          <img class="adventure-featured-img" id="featured-adv-img" src="images/locations/Hkakabo Razi.jpg" alt="Hkakabo Razi mountain trekking expedition in Kachin State" />
+
+        </div>
+        <div class="adventure-featured-content">
+          <div class="adventure-featured-meta">
+            <div class="adv-meta-tag" id="featured-adv-loc-tag"><span>📍</span> <span id="featured-adv-loc-text">Location: Kachin State</span></div>
+            <div class="adv-meta-tag" id="featured-adv-type-tag"><span>⛰️</span> <span id="featured-adv-type-text">Type: Mountain Trekking / Alpine Expedition</span></div>
+            <div class="adv-meta-tag" id="featured-adv-diff-tag"><span>🧗</span> <span id="featured-adv-diff-text">Difficulty: Very Challenging</span></div>
+          </div>
+          <h3 class="adventure-featured-title" id="featured-adv-title">🏔️ Hkakabo Razi Trekking</h3>
+          <p class="adventure-featured-desc" id="featured-adv-desc">
+            At 5,881 meters (19,295 ft), Hkakabo Razi is the highest peak in Southeast Asia. Located in the pristine Himalayan borderlands of northern Kachin State, this expedition traverses hanging glaciers, sub-alpine pine wilderness, and remote Rawang tribal settlements.
+          </p>
+
+          <!-- Safety Note Box -->
+          <div class="safety-note-box">
+            <div class="safety-note-title" id="featured-adv-safety-title">⚠️ Important Expedition Notice</div>
+            <div class="safety-note-text" id="featured-adv-safety-text">
+              Hkakabo Razi is a serious high-altitude wilderness expedition. Inexperienced tourists must not attempt dangerous alpine ascents without thorough physical conditioning, certified mountaineering guides, government permits, and specialized survival gear.
+            </div>
+          </div>
+
+          <button type="button" class="btn btn-primary" id="featured-adv-btn" style="align-self: flex-start;">
+            View Expedition Details
+          </button>
+        </div>
+      </div>
+
+      <!-- Additional Adventure Cards Grid -->
+      <div class="adventure-grid" id="adventure-sub-grid">
+        <!-- Rendered by JavaScript dynamically -->
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       7. CULTURE & PEOPLE SECTION
+       ========================================================================= -->
+  <section class="section section-alt" id="culture">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-badge" data-i18n="culture_badge">Heritage & Diversity</div>
+        <h2 class="section-title" data-i18n="culture_title">Culture & People</h2>
+        <p class="section-subtitle" data-i18n="culture_subtitle">Discover the traditions, communities and cultural diversity of Myanmar.</p>
+      </div>
+
+      <!-- Major Cultural Features (Kayan, Chin Tattoo, Khauk Ye, Bamboo Dance) -->
+      <div class="culture-features-container" id="culture-features-container">
+        <!-- Rendered by JavaScript dynamically -->
+      </div>
+
+      <!-- Secondary Culture Mini Cards (6 Items) -->
+      <div class="culture-grid-secondary" id="culture-cards-grid" style="margin-top: 2.5rem;">
+        <!-- Rendered by JavaScript dynamically -->
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       8. USEFUL MYANMAR LANGUAGE SECTION
+       ========================================================================= -->
+  <section class="section" id="language">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-badge" data-i18n="lang_badge">Travel Phrasebook</div>
+        <h2 class="section-title" data-i18n="lang_title">Useful Myanmar Language</h2>
+        <p class="section-subtitle" data-i18n="lang_subtitle">Designed for foreign tourists. Tap 'Copy Script' to copy the authentic Burmese text to your clipboard.</p>
+      </div>
+
+      <div class="language-grid" id="language-grid">
+        <!-- Rendered by JavaScript dynamically -->
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       9. CURRENCY CONVERTER SECTION
+       ========================================================================= -->
+  <section class="section section-alt" id="money">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-badge" data-i18n="money_badge">Financial Planning</div>
+        <h2 class="section-title" data-i18n="money_title">Myanmar Currency Converter</h2>
+        <p class="section-subtitle" data-i18n="money_subtitle">Calculate estimated costs between Myanmar Kyat (MMK) and major foreign currencies.</p>
+      </div>
+
+      <div class="converter-card-wrap">
+        <div class="converter-card">
+          <form class="converter-form" id="currency-form" onsubmit="return false;">
+            <!-- Amount & From Currency -->
+            <div class="form-group">
+              <label for="convert-amount" class="form-label" data-i18n="money_amount_label">Amount</label>
+              <input type="number" class="form-input" id="convert-amount" value="100" min="1" step="any" placeholder="100" />
+            </div>
+
+            <div class="form-group">
+              <label for="convert-from" class="form-label" data-i18n="money_from_label">From Currency</label>
+              <select class="form-select" id="convert-from">
+                <option value="USD" selected>USD — US Dollar ($)</option>
+                <option value="MMK">MMK — Myanmar Kyat (Ks)</option>
+                <option value="JPY">JPY — Japanese Yen (¥)</option>
+                <option value="EUR">EUR — Euro (€)</option>
+                <option value="THB">THB — Thai Baht (฿)</option>
+                <option value="SGD">SGD — Singapore Dollar (S$)</option>
+              </select>
+            </div>
+
+            <!-- Swap Button -->
+            <div style="display: flex; justify-content: center; align-items: flex-end;">
+              <button type="button" class="swap-btn" id="swap-currency-btn" aria-label="Swap Currencies" title="Swap Currencies">
+                ⇄
+              </button>
+            </div>
+
+            <!-- To Currency -->
+            <div class="form-group">
+              <label for="convert-to" class="form-label" data-i18n="money_to_label">To Currency</label>
+              <select class="form-select" id="convert-to">
+                <option value="MMK" selected>MMK — Myanmar Kyat (Ks)</option>
+                <option value="USD">USD — US Dollar ($)</option>
+                <option value="JPY">JPY — Japanese Yen (¥)</option>
+                <option value="EUR">EUR — Euro (€)</option>
+                <option value="THB">THB — Thai Baht (฿)</option>
+                <option value="SGD">SGD — Singapore Dollar (S$)</option>
+              </select>
+            </div>
+          </form>
+
+          <!-- Result Display -->
+          <div class="converter-result-box" id="converter-result-box">
+            <div class="result-label" data-i18n="money_result_label">Estimated Conversion</div>
+            <div class="result-value" id="convert-result-val">350,000 MMK</div>
+            <div class="result-sub" id="convert-result-sub">1 USD ≈ 3,500 MMK (Ref rate)</div>
+          </div>
+
+          <!-- Mandatory Disclaimer -->
+          <div class="converter-disclaimer" id="converter-disclaimer">
+            ℹ️ <strong data-i18n="money_notice_title">Notice:</strong> <span data-i18n="money_notice_text">Exchange rates shown are example/reference rates and may not reflect current market rates. Always verify official bank and money changer rates upon arrival.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       10. TRAVEL TIPS SECTION
+       ========================================================================= -->
+  <section class="section" id="tips">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-badge" data-i18n="tips_badge">Practical Advice</div>
+        <h2 class="section-title" data-i18n="tips_title">Travel Tips</h2>
+        <p class="section-subtitle" data-i18n="tips_subtitle">Essential guidelines for a safe, respectful, and enriching journey across Myanmar.</p>
+      </div>
+
+      <!-- 6 Travel Tips Cards Container rendered dynamically -->
+      <div class="tips-grid" id="tips-grid">
+        <!-- Rendered by JavaScript dynamically in selected language -->
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       11. UNIVERSAL DETAIL MODAL
+       ========================================================================= -->
+  <div class="modal-overlay" id="universal-modal" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="modal-container">
+      <button type="button" class="modal-close-btn" id="modal-close-btn" aria-label="Close modal window">
+        ✕
+      </button>
+      <div class="modal-img-wrap" id="modal-dynamic-img-wrap">
+        <!-- Dynamically injected modal image -->
+      </div>
+      <div class="modal-body" id="modal-dynamic-body">
+        <!-- Dynamically injected modal content -->
+      </div>
+    </div>
+  </div>
+
+  <!-- =========================================================================
+       12. FOOTER
+       ========================================================================= -->
+  <footer class="footer" id="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Brand & Mission -->
+        <div>
+          <div class="footer-brand-title">
+            <span>🇲🇲</span> <span data-i18n="nav_brand_title">MYANMAR GUIDE</span>
+          </div>
+          <p class="footer-desc" data-i18n="footer_desc">
+            An educational, interactive travel guide curated for international visitors exploring the beauty, heritage, gastronomy, and cultures of the Golden Land.
+          </p>
+        </div>
+
+        <!-- Destinations -->
+        <div>
+          <h4 class="footer-heading" data-i18n="footer_destinations">Destinations</h4>
+          <div class="footer-links" id="footer-places-links">
+            <!-- Dynamically rendered in active language -->
+          </div>
+        </div>
+
+        <!-- Experiences -->
+        <div>
+          <h4 class="footer-heading" data-i18n="footer_experiences">Experiences</h4>
+          <div class="footer-links" id="footer-exp-links">
+            <!-- Dynamically rendered in active language -->
+          </div>
+        </div>
+
+        <!-- Visitor Essentials -->
+        <div>
+          <h4 class="footer-heading" data-i18n="footer_visitor_essentials">Visitor Essentials</h4>
+          <p style="font-size: 0.88rem; line-height: 1.6; color: #9fabba; margin-bottom: 0.75rem;" data-i18n="footer_essentials_desc">
+            Built with pure HTML5, CSS3 & Vanilla JavaScript. Designed for modern travel discovery and student portfolio showcase.
+          </p>
+          <a href="#tips" class="btn btn-outline-primary" style="display: inline-flex; font-size: 0.85rem; padding: 0.45rem 1rem;" data-i18n="footer_tips_btn">
+            View Travel Advice
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p data-i18n="footer_copyright">© 2026 Myanmar Guide • Preserving Cultural Heritage & Promoting Responsible Tourism</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Datasets and Multi-Language Translations -->
+  <script src="./js/translations.js"></script>
+  <script src="./js/destinations.js"></script>
+  <script src="./js/foods.js"></script>
+  <script src="./js/adventures.js"></script>
+  <script src="./js/cultures.js"></script>
+  <script src="./js/regions.js"></script>
+  <script src="./js/phrases.js"></script>
+  <script src="./js/tips.js"></script>
+  <!-- Main Application Logic -->
+  <script src="./js/script.js"></script>
+</body>
+</html>
